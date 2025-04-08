@@ -1,0 +1,8 @@
+.do h1,h3 {
+    background: linear-gradient(to right, #f39c12, #8e44ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For modern browsers */
+    color: transparent;
+  }
+  

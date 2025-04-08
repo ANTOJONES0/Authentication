@@ -1,0 +1,8 @@
+.does {
+    background: linear-gradient(to right, #343a40, #495057, #212529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For modern browsers */
+    color: transparent;
+  }
+  

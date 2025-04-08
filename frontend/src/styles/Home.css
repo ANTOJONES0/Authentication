@@ -1,0 +1,10 @@
+.navimg-text-overlay {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ensure text is visible over image */
+    z-index: 2; /* Ensure it's above the image */
+    width: 80%; /* Adjust width if needed */
+}

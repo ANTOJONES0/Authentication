@@ -1,0 +1,26 @@
+.why-card {
+    border: 7px solid transparent;
+    border-image: linear-gradient(to right, orange, darkorange, orangered);
+    border-image-slice: 1;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    
+  }
+  
+ 
+  
+  .why-icon {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+  }
+
+  .do h3,h1{
+    background: linear-gradient(to right, #f39c12, #8e44ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For modern browsers */
+    color: transparent;
+  }
+  

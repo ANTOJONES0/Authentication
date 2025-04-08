@@ -1,0 +1,29 @@
+/* Custom shadow for experience cards */
+.custom-shadow {
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5),
+                5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Image container - affects only images inside divs with .about-img */
+  .about-img img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  /* Font styling for paragraph */
+  .lead {
+    font-size: 20px;
+  }
+.card-text{
+    font-family: 'Montserrat';
+}  
+
+.do h5,h2{
+  background: linear-gradient(to right, #f39c12, #8e44ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* For modern browsers */
+  color: transparent;
+}

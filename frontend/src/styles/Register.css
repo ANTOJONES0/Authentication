@@ -1,0 +1,23 @@
+
+
+.register-card {
+  max-width: 450px;
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.register-img {
+  max-width: 80%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .register-card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+  }
+}
